@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.login-pf {
+    background: none;
+}
+
+.login-pf body {
+    background: none;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-pf-page {
+    overflow-x: hidden;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.img-col{
+    background: url("../img/bg-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card-pf {
+    border-top: none;
+    padding: 1.25rem;
+    box-shadow: none;
+}
+
+h1#kc-page-title {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.pf-c-form__label {
+    color: #2C2D2E;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.pf-c-button.pf-m-primary {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.pf-c-alert__title {
+    font-family: 'Poppins', sans-serif;
+}
+
+#kc-info-wrapper {
+    background-color: #FFFFFF;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+.login-pf a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500 !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000 !important;
+}
+
+a.kc-social-item {
+    color: #545658;
+}
+
+.pf-c-form-control {
+    background: #FFFFFF;
+    border: 1px solid #BBBEC1;
+    border-radius: 6px;
+}
+
+.pf-c-button.pf-m-control {
+    background: #FFFFFF;
+    border: 1px solid #BBBEC1;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px;
+}
+
+.pf-c-form-control.input {
+    height: 40px;
+}
+
+.pf-c-form-control:hover, .pf-c-form-control:focus {
+    border-bottom-color: #BBBEC1 !important;
+}
+
+.pf-m-control:hover, .pf-m-control:focus {
+    border-bottom-color: #BBBEC1 !important;
+}
+
+.pf-c-button.pf-m-control::after {
+    --pf-c-button--BorderColor: #BBBEC1;
+    --pf-c-button--BorderWidth: 1px solid;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.checkbox label, .radio label {
+    font-size: 14px;
+}
+
+.kc-social-icon-text {
+    color: #000000;
+}
+
+.bg-logo {
+    width: 90px;
+}
+
+.bg-header-text {
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.0024em;
+}
+
+.bg-sub-text {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+}
+
+.login-pf .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: none;
+}
+
+.header-sub-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.24px;
+    color: #000000;
+}
+
+@media (min-width: 768px) {
+    .center-body {
+        align-items: center;
+        display: flex;
+    }
+
+    .login-pf-page {
+        flex-grow: 1;
+        margin: 0 auto;
+    }
+
+    .login-pf .container {
+        padding-bottom: 0;
+        bottom: auto;
+    }
+
+    .bg-logo {
+        position: fixed;
+        top: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .login-pf .container {
+        padding: 40px 34px 30px 20px;
+    }
+
+    .bg-header-text{
+        font-size: 1.7rem;
+        line-height: 42px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .login-pf .container {
+        padding: 10px 20px 30px 20px;
+    }
+
+    .bg-header-text{
+        font-size: 1.4rem;
+        line-height: 35px
+    }
+}
