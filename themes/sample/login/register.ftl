@@ -132,8 +132,14 @@
                     </div>
                 </div>
 
+                <div class="checkbox col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-2">
+                    <label>
+                        <input tabindex="3" id="condition-check-box" name="conditions" type="checkbox">By clicking register button, you agree to <span><a tabindex="5" href="${properties.conditonUrl!}" target="_blank">the terms and conditions</a></span>
+                    </label>
+                </div>
+
                 <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
-                    <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doRegister")}"/>
+                    <input id="register-btn" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doRegister")}" disabled/>
                 </div>
             </div>
         </form>

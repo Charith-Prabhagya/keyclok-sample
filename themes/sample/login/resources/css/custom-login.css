@@ -21,7 +21,7 @@
 }
 
 .img-col{
-    background: url("../img/bg-image.jpg") no-repeat center center fixed;
+    background: url("../img/bg-image.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -51,6 +51,12 @@ h1#kc-page-title {
     border-radius: 8px;
     padding: 10px 0;
     color: #FFFFFF;
+}
+
+.pf-c-button:disabled, .pf-c-button.pf-m-disabled {
+    color: var(--pf-c-button--disabled--Color) !important;
+    pointer-events: none;
+    background-color: var(--pf-c-button--disabled--BackgroundColor) !important;
 }
 
 .pf-c-alert__title {
@@ -126,7 +132,7 @@ input:focus {
 }
 
 .bg-logo {
-    width: 90px;
+    width: 82px;
 }
 
 .bg-header-text {
