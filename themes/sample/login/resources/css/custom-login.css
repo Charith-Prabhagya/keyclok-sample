@@ -29,6 +29,7 @@
     border-top: none;
     padding: 1.25rem;
     box-shadow: none;
+    padding-bottom: 55px !important;
 }
 
 h1#kc-page-title {
@@ -80,6 +81,25 @@ a:focus {
 
 a:hover {
     color: #000000 !important;
+}
+
+.copy-rights-text {
+    color: #fff!important;
+    font-size: 14px !important;
+    background-color: #262424;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copy-rights-link {
+    font-size: 14px !important;
+    color: #fff!important;
+}
+
+.copy-rights-link:hover {
+    color: #FFFFFF !important;
+    font-size: 14px !important;
 }
 
 a.kc-social-item {

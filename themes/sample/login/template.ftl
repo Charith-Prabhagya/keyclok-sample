@@ -166,6 +166,10 @@
         </div>
     </div>
 </div>
+<!-- Copyright -->
+<div class="text-center p-1 copy-rights-text">© 2022 
+    <a class="copy-rights-link" href="${properties.copyRightsUrl!}">Policy</a> All rights reserved
+</div>
 </body>
 </html>
 </#macro>
