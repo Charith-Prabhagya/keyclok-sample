@@ -167,8 +167,8 @@
     </div>
 </div>
 <!-- Copyright -->
-<div class="text-center p-1 copy-rights-text">© 2022 
-    <a class="copy-rights-link" href="${properties.copyRightsUrl!}">Policy</a> All rights reserved
+<div class="text-center p-2 copy-rights-text">© 
+    <a class="copy-rights-link" href="${properties.copyRightsUrl!}">Yalp Games Pte. Ltd.</a> 2021-2022 All rights reserved. 
 </div>
 </body>
 </html>
